@@ -1,0 +1,32 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cards per row */
+    grid-gap: 20px;
+    /* space between cards */
+    margin-top: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+
+.card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 6px 0;
+}
+
+.card p {
+    font-size: 13px;
+    color: #777;
+}
