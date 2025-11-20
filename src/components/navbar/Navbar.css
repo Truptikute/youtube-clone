@@ -8,13 +8,13 @@ nav {
     z-index: 10;
 }
 
-.nav-left .menu-icon {
-    width: 22px;
-    margin-right: 20px;
+.nav-left .menu_icon {
+    width: 40px;
+    margin-right: 10px;
 }
 
 .nav-left .logo {
-    width: 130px;
+    width: 80px;
 }
 
 .nav-middle .search-box {
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-right .profile_icon {
-    width: 35px;
+    width: 30px;
     border-radius: 50%;
 }
 
